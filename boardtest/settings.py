@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
 # google social login settings
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "1048575531471-e6mtjm9e78jvrsi37aai338jq8dg6p5p.apps.googleusercontent.com"
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "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"
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ""
 SOCIAL_AUTH_GOOGLE_OAUTH2_REDIRECT_URL = "http://127.0.0.1:8000/complete/google-oauth2/"
 AUTHENTICATION_BACKENDS = (
     "social_core.backends.google.GoogleOAuth2",
